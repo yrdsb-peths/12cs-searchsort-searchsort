@@ -18,5 +18,15 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
+
+        //Test MergeSort
+        int[] mergeArr = { 1, 2, 3, 4, 5 };
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.sort(mergeArr);
+        System.out.println("sorted Array");
+        for(int num : mergeArr)
+        {
+            System.out.println(num);
+        }
     }
 }

@@ -10,6 +10,7 @@ public class BinarySearch extends Search {
         return 0;
     }
 
+
     /**
      * Find the index of the target element in the sorted array arr using binary
      * search recursively. Return -1 if target is not found in arr.
